@@ -6,10 +6,10 @@ dotenv.config();
 
 export const publicClient = createPublicClient({
   chain: berachain,
-  transport: http("https://rpc.berachain.com/"),
+  transport: http("https://rpc.berachain.com"),
 });
 
 export const walletClient = createWalletClient({
   chain: berachain,
-  transport: http("https://rpc.berachain.com/"),
+  transport: http("https://rpc.berachain.com"),
 });
